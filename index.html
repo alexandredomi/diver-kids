@@ -13,6 +13,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Coda:wght@400;800&display=swap" rel="stylesheet">
     <!-- fonte and -->
+    <!-- AOS ANIMACOES -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!---->
 </head>
 <body>
     <!-- Header -->
@@ -36,11 +39,13 @@
 
     <!-- Hero Section -->
     <section class="hero">
-        <img src="img/background-fundo-home-3.jpg" alt="">
+        <img src="img/imagem hero.jpg" alt="">
+        <div class="overlay"></div>
         <div class="container">
-            <h1 style="color:white">DIVER KIDS</h1>
-            <p class="texto-branco">Há mais de 8 anos realizando sonhos e transformando festas infantis em momentos mágicos e inesquecíveis!</p>
-            <a href="#contato" class="btn">Solicitar Orçamento</a>
+            <h1 data-aos="fade-down-right" style="color:white">DIVER KIDS</h1>
+            <p data-aos="fade-down-right" class="texto-branco">Há mais de 8 anos realizando sonhos e transformando festas infantis em momentos mágicos e inesquecíveis!</p>
+            <a data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom" href="#contato" class="btn">Solicitar Orçamento</a>
         </div>
     </section>
 
@@ -55,15 +60,15 @@
                     <p>Esse é o nosso lema principal, que nos trouxe até aqui com mais de <strong>3.500 eventos</strong> realizados com sucesso.</p>
                     
                     <div class="stats">
-                        <div class="stat" id="bordaAzul">
+                        <div data-aos="fade-right" class="stat" id="bordaAzul">
                             <h3 style="color: var(--blue);">8+</h3>
                             <p>Anos de Experiência</p>
                         </div>
-                        <div class="stat" id="bordaAmarelo">
+                        <div data-aos="fade-right" class="stat" id="bordaAmarelo">
                             <h3 style="color: var(--accent)">3.500+</h3>
                             <p>Eventos Realizados</p>
                         </div>
-                        <div class="stat" id="bordaRosa">
+                        <div data-aos="fade-right" class="stat" id="bordaRosa">
                             <h3 style="color: var(--pink)">10+</h3>
                             <p>Eventos Diários</p>
                         </div>
@@ -71,7 +76,7 @@
                 </div>
                 <div class="sobre-image">
                     <!-- Imagem ilustrativa - substituir por imagem real -->
-                    <img src="img/barraquinhas diver kids.jpg" alt="DIVER KIDS - Festas Infantis">
+                    <img data-aos="fade-left" src="img/barraquinhas diver kids.jpg" alt="DIVER KIDS - Festas Infantis">
                 </div>
             </div>
         </div>
@@ -82,63 +87,63 @@
         <div class="container">
             <h2>Nossas Barraquinhas</h2>
             <div class="barraquinhas-grid">
-                <div class="barraquinha-card">
+                <div data-aos="fade-right" class="barraquinha-card">
                     <div class="barraquinha-icon">
                         <i class="fas fa-candy-cane"></i>
                     </div>
                     <h3>Algodão Doce</h3>
                     <p>Doce clássico que encanta todas as idades.</p>
                 </div>
-                <div class="barraquinha-card">
+                <div data-aos="fade-left" class="barraquinha-card">
                     <div class="barraquinha-icon">
                         <i class="fas fa-utensils"></i>
                     </div>
                     <h3>Batata Frita/Gourmet</h3>
                     <p>Crocantes e irresistíveis com toppings.</p>
                 </div>
-                <div class="barraquinha-card">
+                <div data-aos="fade-right" class="barraquinha-card">
                     <div class="barraquinha-icon">
                         <i class="fas fa-drumstick-bite"></i>
                     </div>
                     <h3>Churrasquinho</h3>
                     <p>Para os fãs de um bom churrasco.</p>
                 </div>
-                <div class="barraquinha-card">
+                <div data-aos="fade-left" class="barraquinha-card">
                     <div class="barraquinha-icon">
                         <i class="fa-solid fa-wheat-awn"></i>
                     </div>
                     <h3>Crepes</h3>
                     <p>Recheios doces e salgados.</p>
                 </div>
-                <div class="barraquinha-card">
+                <div data-aos="fade-right" class="barraquinha-card">
                     <div class="barraquinha-icon">
                         <i class="fas fa-hotdog"></i>
                     </div>
                     <h3>DiverDog & DiverBurguer</h3>
                     <p>Hot dogs e hambúrgueres especiais.</p>
                 </div>
-                <div class="barraquinha-card">
+                <div data-aos="fade-left" class="barraquinha-card">
                     <div class="barraquinha-icon">
                         <i class="fas fa-cheese"></i>
                     </div>
                     <h3>Fondue de Chocolate</h3>
                     <p>Para adoçar qualquer momento.</p>
                 </div>
-                <div class="barraquinha-card">
+                <div data-aos="fade-right" class="barraquinha-card">
                     <div class="barraquinha-icon">
                         <i class="fa-solid fa-bowl-rice"></i>
                     </div>
                     <h3>Pipoca</h3>
                     <p>Crocante e leve, ideal para animar.</p>
                 </div>
-                <div class="barraquinha-card">
+                <div data-aos="fade-left" class="barraquinha-card">
                     <div class="barraquinha-icon">
                         <i class="fas fa-pizza-slice"></i>
                     </div>
                     <h3>Pizza/Pastel</h3>
                     <p>Delícias que todo mundo ama.</p>
                 </div>
-                <div class="barraquinha-card">
+                <div data-aos="fade-right" class="barraquinha-card">
                     <div class="barraquinha-icon">
                         <i class="fas fa-ice-cream"></i>
                     </div>
@@ -147,7 +152,7 @@
                 </div>
             </div>
             
-            <div class="info-extra" style="margin-top: 2rem; padding: 1.5rem; background: var(--white); border-radius: 10px; box-shadow: var(--shadow);">
+            <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" class="info-extra" style="margin-top: 2rem; padding: 1.5rem; background: var(--white); border-radius: 10px; box-shadow: var(--shadow);">
                 <h3>Informações Importantes</h3>
                 <ul style="list-style: none;">
                     <li style="padding: 0.5rem 0; border-bottom: 1px dashed #ddd;"><i class="fas fa-check" style="color: var(--secondary); margin-right: 0.5rem;"></i> Alimentação liberada durante 4 horas, sem limite de consumo durante o evento (exceto churrasquinho)</li>
@@ -164,15 +169,27 @@
             <h2>Cardápio Completo</h2>
             
             <div class="cardapio-tabs">
-                <button class="tab-btn active" data-tab="diverdog">DiverDog</button>
-                <button class="tab-btn" data-tab="diverburguer">DiverBurguer</button>
-                <button class="tab-btn" data-tab="crepes">Crepes</button>
-                <button class="tab-btn" data-tab="churros">Churros</button>
-                <button class="tab-btn" data-tab="acai">Açaí & Sorvete</button>
-                <button class="tab-btn" data-tab="precos">Preços Individuais</button>
+                <button data-aos="fade-right" class="tab-btn active" data-tab="diverdog">
+                    <i class="fas fa-hotdog"></i> DiverDog
+                </button>
+                <button data-aos="fade-right" class="tab-btn" data-tab="diverburguer">
+                    <i class="fa-solid fa-burger"></i>  DiverBurguer
+                </button>
+                <button data-aos="fade-right" class="tab-btn" data-tab="crepes">
+                    <i class="fa-solid fa-wheat-awn"></i>  Crepes
+                </button>
+                <button data-aos="fade-right" class="tab-btn" data-tab="churros">
+                    <i class="fa-solid fa-drumstick-bite"></i> Churros
+                </button>
+                <button data-aos="fade-right" class="tab-btn" data-tab="acai">
+                    <i class="fa-solid fa-ice-cream"></i>Açaí & Sorvete
+                </button>
+                <button data-aos="fade-right" class="tab-btn" data-tab="precos">
+                    <i class="fa-solid fa-cubes-stacked"></i>Preços Individuais
+                </button>
             </div>
             
-            <div class="tab-content active" id="diverdog">
+            <div data-aos="fade-right" class="tab-content active" id="diverdog">
                 <h3>DiverDog</h3>
                 <div class="cardapio-grid">
                     <div class="cardapio-item">
@@ -196,7 +213,7 @@
                 </div>
             </div>
             
-            <div class="tab-content" id="diverburguer">
+            <div data-aos="fade-right" class="tab-content" id="diverburguer">
                 <h3>DiverBurguer</h3>
                 <div class="cardapio-grid">
                     <div class="cardapio-item">
@@ -220,7 +237,7 @@
                 </div>
             </div>
             
-            <div class="tab-content" id="crepes">
+            <div data-aos="fade-right" class="tab-content" id="crepes">
                 <h3>Crepes Doces & Salgados</h3>
                 <div class="cardapio-grid">
                     <div class="cardapio-item">
@@ -255,7 +272,7 @@
                 </div>
             </div>
             
-            <div class="tab-content" id="churros">
+            <div data-aos="fade-right" class="tab-content" id="churros">
                 <h3>Churros Gourmet</h3>
                 <div class="cardapio-grid">
                     <div class="cardapio-item">
@@ -280,7 +297,7 @@
                 </div>
             </div>
             
-            <div class="tab-content" id="acai">
+            <div data-aos="fade-right" class="tab-content" id="acai">
                 <h3>Açaí & Sorvete</h3>
                 <div class="cardapio-grid">
                     <div class="cardapio-item">
@@ -304,7 +321,7 @@
                 </div>
             </div>
             
-            <div class="tab-content" id="precos">
+            <div data-aos="fade-right" class="tab-content" id="precos">
                 <h3>Preços Individuais por Barraquinha</h3>
                 <div style="overflow-x: auto;">
                     <table class="precos-table">
@@ -373,7 +390,7 @@
             <h2>Combos Especiais</h2>
             <p style="text-align: center; margin-bottom: 2rem;">Escolha um dos nossos combos e aproveite preços especiais!</p>
             
-            <div class="combo-cards">
+            <div data-aos="zoom-out-right" class="combo-cards">
                 <div class="combo-card">
                     <h3>COMBO CACHORRO + FRITAS OU CREPES</h3>
                     <div class="combo-brinde" style="color:white">Brinde: Algodão Doce ou Pipoca</div>
@@ -423,7 +440,7 @@
                 </div>
             </div>
             
-            <div class="info-extra" style="margin-top: 2rem; padding: 1.5rem; background: var(--white); border-radius: 10px; box-shadow: var(--shadow);">
+            <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" class="info-extra" style="margin-top: 2rem; padding: 1.5rem; background: var(--white); border-radius: 10px; box-shadow: var(--shadow);">
                 <h3>Condições dos Combos</h3>
                 <ul style="list-style: none;">
                     <li style="padding: 0.5rem 0; border-bottom: 1px dashed #ddd;"><i class="fas fa-info-circle" style="color: var(--primary); margin-right: 0.5rem;"></i> Alimentação liberada durante 4 HORAS sem limite de consumo durante o evento</li>
@@ -442,24 +459,24 @@
             <p>Estamos prontos para tornar sua festa inesquecível! Entre em contato conosco para solicitar um orçamento.</p>
             
             <div class="contato-info">
-                <div class="info-card">
+                <div data-aos="fade-right" class="info-card">
                     <i class="fas fa-phone-alt"></i>
                     <h3>Telefone</h3>
                     <p>(53) 99999-9999</p>
                 </div>
-                <div class="info-card">
+                <div data-aos="fade-right" class="info-card">
                     <i class="fas fa-envelope"></i>
                     <h3>E-mail</h3>
                     <p>contato@diverkids.com.br</p>
                 </div>
-                <div class="info-card">
+                <div data-aos="fade-right" class="info-card">
                     <i class="fas fa-map-marker-alt"></i>
                     <h3>Localização</h3>
                     <p>Pelotas - RS</p>
                 </div>
             </div>
             
-            <a href="https://wa.me/5553999999999?text=Olá! Gostaria de solicitar um orçamento para uma festa infantil." class="btn" target="_blank">
+            <a data-aos="fade-up" data-aos-anchor-placement="center-bottom" href="https://wa.me/5553999999999?text=Olá! Gostaria de solicitar um orçamento para uma festa infantil." class="btn" target="_blank">
                 <i class="fab fa-whatsapp"></i> Fale Conosco pelo WhatsApp
             </a>
         </div>
@@ -548,6 +565,10 @@
                 }
             });
         });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
     </script>
 </body>
 </html>
