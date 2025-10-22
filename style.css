@@ -312,6 +312,8 @@
             margin-bottom: 2rem;
             width: 100%;
             overflow-x: auto;
+            white-space: nowrap;     /* conteúdo em linha */
+            scroll-behavior: smooth; /* opcional, para rolagem suave */
             padding-left: 40px;
             /* flex-wrap: wrap; */
         }
