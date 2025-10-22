@@ -1,17 +1,17 @@
 /* ===== VARIÁVEIS DE CORES ===== */
         :root {
-            /* --primary: #0f8f2e;
-            --secondary: #e8a129; */
-            --primary: #e8a129;
-            --secondary: #0f8f2e;
-            --accent: #0f8f2e;
+            --primary: #0f8f2e;
+            --secondary: #e8a129;
+            /* --primary: #e8a129;
+            --secondary: #0f8f2e; */
+            --accent: #e8a129;
             --pink: #e373a1;
             --blue: #24b3d7;
             --dark: #2A2D34;
-            --light: #fcfbf7;
+            --light: #f8f8f8;
             --text: #333333;
-            --white: #c9f5dc;
-            --shadow: 0 4px 12px rgba(0,0,0,0.1);
+            --white: #fcfcfc;
+            --shadow: 0 4px 12px rgba(20, 10, 10, 0.1);
         }
 
         /* ===== ESTILOS GERAIS ===== */
@@ -29,15 +29,15 @@
         }
 
         #bordaAzul{
-            border: solid 2px var(--blue);
+            border: solid 3px var(--blue);
         }
 
-        #bordaVerde{
-            border: solid 2px var(--primary);
+        #bordaAmarelo{
+            border: solid 3px var(--accent);
         }
 
         #bordaRosa{
-            border: solid 2px var(--pink);
+            border: solid 3px var(--pink);
         }
 
         h1, h2, h3, h4 {
@@ -186,7 +186,7 @@
         .hero {
             position: relative;
             min-width: 100%;
-            height: 50vh; /* ou ajuste para 'auto' se quiser que acompanhe o conteúdo */
+            height: 65vh;
             overflow: hidden;
             display: flex;
             align-items: center;
@@ -200,6 +200,7 @@
             min-width: 100%;
             height: 100%;
             object-fit: cover;
+            object-position: center;
             z-index: 0;
         }
 
