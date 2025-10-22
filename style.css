@@ -85,7 +85,7 @@
 
         .btn {
             display: inline-block;
-            background: var(--primary);
+            background: var(--secondary);
             color: var(--white);
             padding: 12px 24px;
             border-radius: 50px;
@@ -98,7 +98,7 @@
         }
 
         .btn:hover {
-            background: var(--secondary);
+            background: var(--primary);
             transform: translateY(-3px);
         }
 
@@ -184,15 +184,31 @@
 
         /* ===== HERO SECTION ===== */
         .hero {
-            /* background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
-            color: var(--white); */
-            background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("img/background-fundo-home-3.jpg");
-            background-size: cover;       
-            background-position: center;  
-            background-repeat: no-repeat; 
-            background-attachment: fixed; 
+            position: relative;
+            width: 100%;
+            height: 50vh; /* ou ajuste para 'auto' se quiser que acompanhe o conteúdo */
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 0;
+        }
+
+        .hero .container {
+            position: relative;
+            z-index: 1;
             text-align: center;
-            padding: 6rem 2rem;
+            color: white;
+            padding: 20px;
         }
 
         .hero h1 {
